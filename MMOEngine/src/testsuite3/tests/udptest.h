@@ -57,7 +57,7 @@ public:
 
 			printf("sending packet\n");
 
-			DatagramServiceClient client("127.0.0.1", 45555);
+			DatagramServiceClient client("89.160.230.71", 45555);
 
 			for (int i = 0; i < 5; ++i) {
 				int length = client.send(&packet);
